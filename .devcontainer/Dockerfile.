@@ -1,1 +1,4 @@
+FROM mcr.microsoft.com/devcontainers/python:1-3.12-bookworm
 
+# Elimina la fuente APT de Yarn, cuya clave GPG expiró y rompe apt-get update
+RUN rm -f /etc/apt/sources.list.d/yarn.list /usr/share/keyrings/yarnpkg.gpg
