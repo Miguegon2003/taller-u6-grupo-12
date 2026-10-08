@@ -1,1 +1,1 @@
-contenido # Taller Unidad 6 · Grupo 12
+# Taller Unidad 6 · Grupo 12
